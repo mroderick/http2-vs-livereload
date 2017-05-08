@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTTP/2 vs. live reloading</title>
+        <script>
+            document.write('<script src="https://' + (location.host || 'localhost').split(':')[0] +
+            ':35729/livereload.js?snipver=1"></' + 'script>')
+        </script>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+        <h1>HTTP/2 vs. live reloading</h1>
+        <p>
+            To verify problem:
+        </p>
+        <ul>
+            <li>modify this file or the stylesheet</li>
+            <li>observe the changes being automatically reloaded in desktop browsers</li>
+            <li>observe that no changes are being pushed to Safari/iOS</li>
+        </ul>
+    </body>
+</html>

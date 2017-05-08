@@ -1,0 +1,25 @@
+{
+  "name": "http2-vs-livereload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mroderick/http2-vs-livereload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mroderick/http2-vs-livereload/issues"
+  },
+  "homepage": "https://github.com/mroderick/http2-vs-livereload#readme",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "livereload": "^0.6.2",
+    "nodemon": "^1.11.0",
+    "spdy": "^3.4.4"
+  }
+}
